@@ -167,9 +167,7 @@
                             <nav>
                                 <ul class="mobile-menu">
                                     <li class="selected">
-                                        <a href="index.html" title="Home">
-                                            HOME
-                                        </a>
+                                        @Html.ActionLink("HOME", "Index", "Home")
                                     </li>
                                     <li>
                                         @Html.ActionLink("PROJECTS", "Projects", "Home")
@@ -202,9 +200,7 @@
                                         </ul>
                                     </li>
                                     <li>-->
-                                        <a href="services.html" title="Services">
-                                            SERVICES
-                                        </a>
+                                        @Html.ActionLink("SERVICES", "Services", "Home")
                                         <!--<ul>
                                             <li>
                                                 <a href="service_interior_renovation.html" title="Interior Renovation">
@@ -242,23 +238,17 @@
                                     <li>
                                         @Html.ActionLink("ESTIMATE FORM", "ContactForm", "Home")
                                     </li>
+                                 
                                     <li class="left-flyout">
-                                        <a href="contact.html" title="Contact">
-                                            CONTACT
-                                        </a>
-                                        <ul>
+                                        @Html.ActionLink("CONTACT US", "Contact", "Home")
+                                        <!--<ul>
                                             <li>
-                                                <a href="contact.html" title="Contact Style 1">
-                                                    Contact Style 1
-                                                </a>
-                                            </li>
-                                            <li>
-                                                <a href="contact_2.html" title="Contact Style 2">
-                                                    Contact Style 2
                                                     @Html.Partial("_LoginPartial")
-                                                </a>
                                             </li>
-                                        </ul>
+                                        </ul>-->
+                                    </li>
+                                    <li class="left-flyout">
+                                        @Html.ActionLink("ABOUT US", "About", "Home")
                                     </li>
                                 </ul>
                             </nav>

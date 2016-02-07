@@ -218,6 +218,15 @@
     <Content Include="Content\settings.css" />
     <Content Include="Content\style.css" />
     <Content Include="Content\superfish.css" />
+    <Content Include="extensions\revolution.extension.actions.min.js" />
+    <Content Include="extensions\revolution.extension.carousel.min.js" />
+    <Content Include="extensions\revolution.extension.kenburn.min.js" />
+    <Content Include="extensions\revolution.extension.layeranimation.min.js" />
+    <Content Include="extensions\revolution.extension.migration.min.js" />
+    <Content Include="extensions\revolution.extension.navigation.min.js" />
+    <Content Include="extensions\revolution.extension.parallax.min.js" />
+    <Content Include="extensions\revolution.extension.slideanims.min.js" />
+    <Content Include="extensions\revolution.extension.video.min.js" />
     <Content Include="favicon.ico" />
     <Content Include="fonts\glyphicons-halflings-regular.svg" />
     <Content Include="fonts\social.svg" />
@@ -397,6 +406,7 @@
     <Content Include="fonts\template\fonts\template.eot" />
     <Content Include="fonts\template\fonts\template.ttf" />
     <Content Include="fonts\template\fonts\template.woff" />
+    <None Include="Properties\PublishProfiles\ConstructionWebApp - Web Deploy.pubxml" />
     <None Include="Scripts\jquery-1.10.2.intellisense.js" />
     <Content Include="Scripts\extensions\revolution.extension.actions.min.js" />
     <Content Include="Scripts\extensions\revolution.extension.carousel.min.js" />
