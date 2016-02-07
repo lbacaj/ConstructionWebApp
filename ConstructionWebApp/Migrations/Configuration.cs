@@ -24,7 +24,7 @@ namespace ConstructionWebApp.Migrations
                 var userStore = new UserStore<ApplicationUser>(context);
                 var userManager = new UserManager<ApplicationUser>(userStore);
                 var userToInsert = new ApplicationUser { UserName = "lbacaj@gmail.com", PhoneNumber = "6469125011" };
-                userManager.Create(userToInsert, "Albo!234");
+                userManager.Create(userToInsert, "usertest123");
             }
             //  This method will be called after migrating to the latest version.
 
